@@ -1,0 +1,45 @@
+*{
+    padding-inline-start: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header */
+.navbar{
+    background-color: tomato;
+}
+.navbar-nav a{
+    color: white;
+}
+.nav-item .dropdown-menu{
+    background-color: darkgoldenrod;
+}
+.wrapper{
+    position: relative;
+}
+.wrapper span{
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    background-color: black;
+    font-size: 8px;
+    border-radius: 50%;
+}
+.nav-item img{
+    border-radius: 50%;
+}
+/* header done  */
+
+/* carousel begins */
+.carousel-control-prev i{
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+.carousel-inducators.active{
+    background-color: darkgoldenrod !important;
+}
+.carousel-control-next i{
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+/* carousel-done */
+
